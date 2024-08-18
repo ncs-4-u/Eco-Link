@@ -1,0 +1,53 @@
+/* Suppliers Section */
+#hero-suppliers {
+    padding: 0px 20px; /* Added extra padding at the top for navbar space */
+    background-color: white;
+    text-align: center;
+}
+.hero-content h1 {
+    padding-top: 70px;
+}
+
+#suppliers .container {
+    margin: 0 auto;
+    padding: 10px 100px;
+}
+
+#suppliers h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 20px; /* Adjusted margin for consistency */
+}
+
+.industry-group {
+    margin-bottom: 40px;
+}
+
+.industry-group h3 {
+    font-size: 1.5rem;
+    color: #27ae60;
+    margin-bottom: 20px;
+}
+
+.industry-group ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-left: 15px; /* Added margin for spacing */
+}
+
+.industry-group ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.industry-group ul li::before {
+    content: "\2022";
+    color: #27ae60;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1rem;
+}
