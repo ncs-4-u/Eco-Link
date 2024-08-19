@@ -12,15 +12,7 @@
 <body>
     <header>
         <div id="navbar-placeholder"></div>
-
-    <script>
-        // Load the navbar.html file and inject it into the #navbar-placeholder div
-        fetch('navbar.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('navbar-placeholder').innerHTML = data;
-            });
-    </script>
+        <script src="js/navbar.js"></script>
     </header>
 
     <main>
@@ -83,20 +75,9 @@
         
         
     </main>
-
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 EcoLink. All Rights Reserved.</p>
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-        </div>
-    </footer>
     
-
-    <!-- <script src="js/scripts.js"></script> -->
+    <div id="footer-placeholder"></div>
+    <script src="js/footer.js"></script>
 </body>
 </html>
 

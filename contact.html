@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/basic.css">
-    <title>Document</title>
+    <title>Contact Us - Nimbus Consultancy</title>
 </head>
 
 <body>
     <div id="navbar-placeholder"></div>
+    <script src="js/navbar.js"></script>
 
-    <script>
-        // Load the navbar.html file and inject it into the #navbar-placeholder div
-        fetch('navbar.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('navbar-placeholder').innerHTML = data;
-            });
-    </script>
+    <main>
+        <div class="container">
+            <h1> Contact us</h1>
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script src="js/footer.js"></script>
 </body>
 
 </html>
