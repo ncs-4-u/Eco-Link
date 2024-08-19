@@ -57,6 +57,7 @@
 
 #features {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     padding: 50px 20px;
     background-color: #f4f4f4;
@@ -68,9 +69,10 @@
     padding: 20px;
 }
 
-.feature img {
-    width: 60px;
-    margin-bottom: 20px;
+.feature i {
+    font-size: 3rem;
+    color: #27ae60;
+    margin-bottom: 15px;
 }
 
 .feature h2 {
@@ -145,3 +147,13 @@
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+    #features{
+        flex-direction: column;
+    }
+    .feature {
+        width: 80%;
+        padding: 20px;
+        margin: 0px auto;
+    }
+}
