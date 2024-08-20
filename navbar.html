@@ -2,9 +2,7 @@
     li{
         list-style: none;
     }
-    .nav-branding{
-        font-size: 2rem;
-    }
+
     a{
         color: white;
         text-decoration: none;
@@ -22,10 +20,13 @@
         align-items: center;
         gap: 50px;
     }
+    .nav-branding{
+        font-size: 2rem;
+    }
     .nav-link{
         transition: 0.7s ease;
     }
-    .nav-link a:hover{
+    .nav-link:hover{
         color: green;
     }
     .hamburger{
@@ -65,11 +66,11 @@
             text-align: center;
             transition: 0.3s;
         }
-        .nav-link{
+        .nav-item{
             margin: 17px 0;
         }
         .nav-menu.active{
-            right: 0%;
+            right: 0% !important;
         }
     }
 
@@ -77,17 +78,25 @@
 
 <!-- navbar.html -->
 <nav class="navbar">
-    <div class="nav-branding">
-        <a href="index.html">Eco-Link</a>
-    </div>
+    <a href="" class="nav-branding">Eco-Link</a>
     <ul class="nav-menu">
-        <li class="nav-link"><a href="index.html">Home</a></li>
-        <li class="nav-link"><a href="about.html">About Us</a></li>
-        <li class="nav-link"><a href="products.html">Products</a></li>
-        <li class="nav-link"><a href="suppliers.html">Suppliers</a></li>
-        <li class="nav-link"><a href="contact.html">Contact</a></li>
+        <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a href="products.html" class="nav-link">Products</a>
+        </li>
+        <li class="nav-item">
+            <a href="suppliers.html" class="nav-link">Suppliers</a>
+        </li>
+        <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+        </li>
     </ul>
-    <div class="hamburger" id="hamburger">
+    <div class="hamburger">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
