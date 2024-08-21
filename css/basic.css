@@ -17,7 +17,7 @@ header li{
 }
 
 header a{
-    color: white;
+    color: grey;
     text-decoration: none;
 }
 .navbar{
@@ -26,6 +26,7 @@ header a{
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    width: 100%;
 }
 .nav-menu{
     display: flex;
@@ -85,6 +86,9 @@ header a{
     .nav-menu.active{
         right: 0% !important;
     }
+    .footer-content{
+        flex-direction: column;
+    }
 }
 
 .container{
@@ -112,7 +116,7 @@ footer {
 .social-icons a {
     color: white;
     font-size: 24px;
-    margin: 0 15px;
+    margin: 2px 15px;
     transition: color 0.3s;
 }
 
