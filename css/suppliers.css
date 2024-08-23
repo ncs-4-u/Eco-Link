@@ -10,7 +10,7 @@
 
 #suppliers {
     margin: 0 auto;
-    padding: 10px 100px;
+    padding: 10px 10px;
 }
 
 .industry-row{
@@ -35,13 +35,17 @@
 .industry p{
     color: black;
 }
+.industry h3{
+    padding-top: 25px;
+}
 @media(max-width:700px){
     .industry-row{
         flex-direction: column;
         width: 90%;
     }
     .industry{
-        width: 100%;
-        margin: 10px auto;
+        width: 90%;
+        margin: 15px auto;
     }
+
 }
