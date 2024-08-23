@@ -17,7 +17,7 @@ header li{
 }
 
 header a{
-    color: grey;
+    color: whitesmoke;
     text-decoration: none;
 }
 .navbar{
@@ -89,10 +89,6 @@ header a{
     .footer-content{
         flex-direction: column;
     }
-}
-
-.container{
-    padding-top: 80px;
 }
 
 footer {
