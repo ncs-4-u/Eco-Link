@@ -8,46 +8,40 @@
     padding-top: 70px;
 }
 
-#suppliers .container {
+#suppliers {
     margin: 0 auto;
     padding: 10px 100px;
 }
 
-#suppliers h2 {
-    font-size: 2rem;
-    color: #2c3e50;
-    margin-bottom: 30px;
+.industry-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;    
+}
+
+.industry{
+    width: 26%;
+    color: #27ae60;
+    background-color: blanchedalmond;
     text-align: center;
-    margin-top: 20px; /* Adjusted margin for consistency */
+    min-height: 200px;
+    padding-top: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 5px;
 }
-
-.industry-group {
-    margin-bottom: 40px;
+.industry p{
+    color: black;
 }
-
-.industry-group h3 {
-    font-size: 1.5rem;
-    color: #27ae60;
-    margin-bottom: 20px;
-}
-
-.industry-group ul {
-    list-style: none;
-    padding-left: 20px;
-    margin-left: 15px; /* Added margin for spacing */
-}
-
-.industry-group ul li {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.industry-group ul li::before {
-    content: "\2022";
-    color: #27ae60;
-    font-weight: bold;
-    display: inline-block;
-    width: 1rem;
-    margin-left: -1rem;
+@media(max-width:700px){
+    .industry-row{
+        flex-direction: column;
+        width: 90%;
+    }
+    .industry{
+        width: 100%;
+        margin: 10px auto;
+    }
 }
