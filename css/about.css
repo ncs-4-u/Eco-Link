@@ -93,7 +93,7 @@
         flex-direction: column;
     }
     .vision, .mission, .team-member{
-        width: 90%;
+        width: 85%;
         margin: 5px auto;
     }
     .team-members{
