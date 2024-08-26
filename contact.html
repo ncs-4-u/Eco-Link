@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Eco-Link - Contact Us</title>
 </head>
@@ -38,11 +39,39 @@
         </nav>
     </header>
 
-    <main>
+    <!-- Contact Us Section -->
+    <section id="contact-us">
         <div class="container">
-            <h1> Contact us</h1>
+            <h1>Contact Us</h1>
+            <p>If you have any questions, feedback, or need assistance, please feel free to reach out to us.</p>
+
+            <div class="contact-info">
+                <div class="contact-details">
+                    <h2>Get in Touch</h2>
+                    <p><strong>Email:</strong> support@eco-link.com</p>
+                    <p><strong>Phone:</strong> +1 234 567 890</p>
+                    <p><strong>Address:</strong> 123 Green Street, Sustainability City, Earth</p>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form action="submit_contact_form.php" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <h2>Our Location</h2>
+                <!-- Embed a Google Map -->
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
-    </main>
+    </section>
 
     <footer>
         <div class="footer-content">
